@@ -1,0 +1,14 @@
+package messenger.messenger.business.friend.presentation.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class MyCrudFriendDto {
+
+    private Long friendId;
+
+}
